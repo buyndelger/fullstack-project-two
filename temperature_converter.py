@@ -19,3 +19,16 @@ temp_num = int(input("Температурын утга:"))
 
 hario=0
 if hurvuuleh_utag == "1":
+    hario =(float(temp_num *9/5) +32)
+elif hurvuuleh_utag =="2":
+    hario =(float(temp_num) +32) *5/9
+elif hurvuuleh_utag =="3":
+    hario =(float(temp_num)) +273.15 
+elif hurvuuleh_utag =="4":
+    hario =(float(temp_num)) -273
+elif hurvuuleh_utag =="5":
+    hario =(float(temp_num) +459.67)*5/9
+elif hurvuuleh_utag =="6":
+    hario =(float(temp_num)) *9/5 -459.67              
+
+    print(f"hariu ni:{hario}")
